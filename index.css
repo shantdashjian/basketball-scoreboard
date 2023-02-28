@@ -1,21 +1,20 @@
 body {
     margin: 0;
-    font-family: Verdana;
     text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 
 .container {
     background-color: #0284C7;
-    height: 385px;
+    height: 395px;
     width: 575px;
     margin: 100px auto 0px auto;
 }
 
 .teams-container {
     display: flex;
-    justify-content: space-around;
     width: 575px;
-    height: 340px;
+    height: 345px;
     color: #E0F2FE;
     justify-content: start;
 }
@@ -35,8 +34,8 @@ body {
 #guest-container {
     margin-right: 85px;
 }
-.heading {
-    font-size: 40px;
+.header {
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
@@ -44,14 +43,12 @@ body {
     width: 155px;
     height: 120px;
     font-size: 90px;
-    font-family: 'Cursed Timer ULiL', sans-serif;
     margin: 0px 0px 26px 0px;
     padding: 20px 0px 0px 0px;
     background-color: #075985;
 }
 
 .btn {
-    font-family: 'Cursed Timer ULiL', sans-serif;
     margin-bottom: 20px;
     background: none;
     color: #E0F2FE;
