@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.container {
+    background-color: #0284C7;
+    height: 385px;
+    width: 575px;
+    margin: 100px auto 0px auto;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 340px;
+    color: #E0F2FE;
+    justify-content: start;
+}
+
+.team-container {
+    width: 149px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-container {
+    margin-left: 85px;
+    margin-right: 100px;
+}
+
+#guest-container {
+    margin-right: 85px;
+}
+.heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 0px 0px 26px 0px;
+    padding: 20px 0px 0px 0px;
+    background-color: #075985;
+}
+
+.btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-bottom: 20px;
+    background: none;
+    color: #E0F2FE;
+    border: 1px solid #E0F2FE;
+    padding: 7px 0px 5px 0px;
+}
+
+.plus-btn {
+    width: 45px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+#footer-btn {
+    padding: 7px 10px 5px 8px;
+}

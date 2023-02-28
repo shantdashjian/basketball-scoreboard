@@ -1,0 +1,38 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+  <div class="teams-container">
+    <div id="home-container" class="team-container">
+      <h3 id="home-heading" class="heading">HOME</h3>
+      <p id="home-score-el" class="score">0</p>
+      <div class="buttons">
+        <button class="plus-btn btn" onclick="homeIncrease(1)">+1</button>
+        <button class="plus-btn btn" onclick="homeIncrease(2)">+2</button>
+        <button class="plus-btn btn" onclick="homeIncrease(3)">+3</button>
+      </div>
+    </div>
+    <div id="guest-container" class="team-container">
+      <h3 id="guest-heading" class="heading">GUEST</h3>
+      <p id="guest-score-el" class="score">0</p>
+      <div class="buttons">
+        <button class="plus-btn btn" onclick="guestIncrease(1)">+1</button>
+        <button class="plus-btn btn" onclick="guestIncrease(2)">+2</button>
+        <button class="plus-btn btn" onclick="guestIncrease(3)">+3</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <button id="footer-btn" class="btn" onclick="newGame()">New Game</button>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
